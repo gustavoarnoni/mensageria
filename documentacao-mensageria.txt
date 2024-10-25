@@ -1,0 +1,24 @@
+1. O Que é Mensageria?
+Mensageria é uma maneira de diferentes partes de um sistema conversarem entre si. Isso ajuda os sistemas a funcionarem melhor e a não travarem, já que as partes podem trabalhar separadamente.
+
+2. O Que São Filas?
+Filas são como filas de pessoas esperando para serem atendidas. As mensagens (ou tarefas) entram na fila quando um produtor as envia, e os consumidores vão pegando e processando essas mensagens na ordem em que chegaram.
+
+3. O Que é um Produtor?
+Um produtor é o "enviador" de mensagens. Ele cria mensagens e coloca na fila. Pense nele como alguém que está mandando tarefas para serem feitas.
+
+4. O Que é um Consumidor?
+Um consumidor é quem "pega" as mensagens da fila e faz o trabalho. Ele recebe as mensagens e as processa. Pense nele como alguém que está atendendo as tarefas que foram enviadas.
+
+5. O Que é um Tópico?
+Um tópico é como um "assunto" onde várias mensagens podem ser enviadas. Vários consumidores podem se inscrever em um tópico para receber mensagens sobre aquele assunto específico.
+
+6. O Que são Partições?
+Partições são como dividir uma fila em várias partes. Isso permite que várias pessoas (ou consumidores) trabalhem ao mesmo tempo nas mensagens, ajudando tudo a funcionar mais rápido.
+
+7. Comparação das Ferramentas de Mensageria
+RabbitMQ: Uma ferramenta que ajuda a enviar mensagens em filas. É flexível e suporta vários tipos de comunicação.
+BullMQ: Uma biblioteca para Node.js que usa o Redis. É fácil de usar e tem recursos legais, como agendar tarefas.
+Kafka: Uma plataforma que ajuda a processar muitas mensagens rapidamente. É ótima para sistemas que precisam lidar com dados em tempo real.
+Conclusão
+A mensageria ajuda sistemas a funcionarem melhor, permitindo que partes diferentes se comuniquem sem travar tudo. Usar ferramentas como RabbitMQ, BullMQ e Kafka ajuda os desenvolvedores a criar sistemas que funcionam bem juntos.
