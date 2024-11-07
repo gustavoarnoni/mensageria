@@ -1,9 +1,9 @@
 import express from 'express';
 import './producer';
 import './consumer';
+import { app } from 'c:/Users/gusta/Desktop/mensageria/src/routes';
 
-const app = express();
-const port = 3000;
+const port = 3001;
 
 app.get('/', (req, res) => {
   res.send('Sistema de Mensageria com BullMQ!');
